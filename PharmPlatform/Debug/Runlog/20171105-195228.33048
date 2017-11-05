@@ -1,0 +1,7 @@
+Log file created at: 2017/11/05 19:52:28
+Running on machine: DESKTOP-29N1JFB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1105 19:52:28.432024 33052 commonglog.h:39] :Log start
+I1105 19:52:28.494415 33052 main.cpp:12] 我第一次使用glog
+W1105 19:52:28.494415 33052 main.cpp:13] 这是一个警告
+E1105 19:52:28.529871 33052 main.cpp:14] 这是一个错误

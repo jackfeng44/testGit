@@ -1,0 +1,12 @@
+#ifndef VIEWMODELS_GLOBAL_H
+#define VIEWMODELS_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(VIEWMODELS_LIBRARY)
+#  define VIEWMODELSSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define VIEWMODELSSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // VIEWMODELS_GLOBAL_H

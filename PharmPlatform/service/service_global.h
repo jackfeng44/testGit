@@ -1,0 +1,12 @@
+#ifndef SERVICES_GLOBAL_H
+#define SERVICES_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SERVICES_LIBRARY)
+#  define SERVICESSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define SERVICESSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SERVICES_GLOBAL_H

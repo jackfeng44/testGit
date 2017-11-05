@@ -1,0 +1,5 @@
+Log file created at: 2017/11/05 18:36:27
+Running on machine: DESKTOP-29N1JFB
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1105 18:36:27.867692 31560 commonglog.h:39] :Log start
+I1105 18:36:27.980696 31560 main.cpp:12] 我第一次使用glog
